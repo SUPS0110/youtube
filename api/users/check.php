@@ -1,6 +1,6 @@
 <?php
 
-require_once "../connection.php";
+require_once "./conn.php";
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     // take the request and get the usernam and password
